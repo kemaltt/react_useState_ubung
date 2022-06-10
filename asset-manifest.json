@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_useState_ubung/static/css/main.9253d057.css",
+    "main.js": "/react_useState_ubung/static/js/main.00737e1b.js",
+    "index.html": "/react_useState_ubung/index.html",
+    "main.9253d057.css.map": "/react_useState_ubung/static/css/main.9253d057.css.map",
+    "main.00737e1b.js.map": "/react_useState_ubung/static/js/main.00737e1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9253d057.css",
+    "static/js/main.00737e1b.js"
+  ]
+}
