@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Counter from "./components/Counter";
+import DayNightSchalter from "./components/DayNightSchalter";
+import Faq from "./components/Faq";
+import Faq2 from "./components/Faq2";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Faq />
+      <Faq2 />
+      <Counter />
+      <DayNightSchalter />
     </div>
   );
 }
