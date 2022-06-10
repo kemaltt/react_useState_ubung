@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 const Faq2 = () => {
-  const [display, setDisplay] = useState(true);
-  const [display2, setDisplay2] = useState(true);
+  const [answer, setAnswer] = useState(true);
+  const [answer2, setAnswer2] = useState(true);
 
   return (
     <div>
@@ -11,22 +11,22 @@ const Faq2 = () => {
         <div className="faq2">
           <div>
             <h3>Why is React great?</h3>
-            <button onClick={() => setDisplay(!display)}>+</button>
+            <button onClick={() => setAnswer(!answer)}>+</button>
           </div>
           <div className="">
             <div>
-              <p style={{ display: display ? "none" : "block" }}>
+              <p style={{ display: answer ? "none" : "block" }}>
                 Fast Learning Curve
               </p>
               <button
-                style={{ display: display ? "none" : "block" }}
-                onClick={() => setDisplay2(!display2)}
+                style={{ display: answer ? "none" : "block" }}
+                onClick={() => setAnswer2(!answer2)}
               >
                 +
               </button>
             </div>
 
-            <p style={{ display: display2 ? "none" : "block" }}>
+            <p style={{ display: answer2 ? "none" : "block" }}>
               React is very a simple and lightweight library that only deals
               with the view layer. It is not a beast like other MV* frameworks
               such as Angular or Ember. Any Javascript developer can understand
