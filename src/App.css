@@ -14,7 +14,7 @@ h4{
 .faq_container{
   background-color:#C4C4C4 ;
   width: 50%;
-  height: 200px;
+
   margin: 4vh auto;
   padding: 2vh 2%;
   color: #fff;
@@ -23,26 +23,26 @@ h4{
 .faq{
   border: #fff solid 1px;
   background-color: #484848;
-  padding: 2vh 4%;
+  padding: 4vh 4%;
 }
-.faq div{
+.faq_question{
 display: flex;
 justify-content: space-between;
 align-items: center;
 margin-bottom: 3vh;
 }
-.faq div button{
+.faq_question button{
   padding:  2px 5px;
   border: none;
   font-size: 1rem;
   border-radius: 5px;
 }
-.faq div button:active{
+.faq_question button:active{
   background-color: rgb(21, 21, 150);
   color: #fff;
 }
 
-.faq p{
+.faq_answer{
 border-top: #fff solid 1px;
 padding: 1vh 0;
 }
@@ -55,7 +55,6 @@ padding: 1vh 0;
 .faq_container2{
   background-color:#C4C4C4 ;
   width: 50%;
-  height: 300px;
   margin: 4vh auto;
   padding: 2vh 2%;
   color: #fff;
@@ -63,26 +62,45 @@ padding: 1vh 0;
 
 .faq2{
   background-color: #484848;
-  padding: 2vh 4%;
+  padding: 4vh 4%;
+  border: #fff solid 1px;
+
 }
-.faq2 div{
+.faq2_question{
 display: flex;
 justify-content: space-between;
 align-items: center;
-
+margin-bottom: 3vh;
 }
-.faq2 div button{
+.faq2_question button{
   padding:  2px 5px;
   border: none;
   font-size: 1rem;
   border-radius: 5px;
 }
-.faq2 div button:active{
+
+.faq2_answer button{
+  padding:  2px 5px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.faq2_answer button:active{
   background-color: rgb(21, 21, 150);
   color: #fff;
 }
+.faq2_answer div{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 3vh;
+border-top: #fff solid 1px;
+padding: 2vh 0;
+}
 
-.faq2 p{
+
+
+.faq2_answer> p{
 border-top: #fff solid 1px;
 padding: 1vh 0;
 }

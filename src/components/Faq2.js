@@ -9,20 +9,21 @@ const Faq2 = () => {
       <h4>react state lev1_2-FAQ2</h4>
       <div className="faq_container2">
         <div className="faq2">
-          <div>
+          <div className="faq2_question">
             <h3>Why is React great?</h3>
-            <button onClick={() => setAnswer(!answer)}>+</button>
+            <button onClick={() => setAnswer(!answer)}>
+              {answer ? "+" : "-"}
+            </button>
           </div>
-          <div className="">
+
+          <div
+            className="faq2_answer"
+            style={{ display: answer ? "none" : "block" }}
+          >
             <div>
-              <p style={{ display: answer ? "none" : "block" }}>
-                Fast Learning Curve
-              </p>
-              <button
-                style={{ display: answer ? "none" : "block" }}
-                onClick={() => setAnswer2(!answer2)}
-              >
-                +
+              <p>Fast Learning Curve</p>
+              <button onClick={() => setAnswer2(!answer2)}>
+                {answer2 ? "+" : "-"}
               </button>
             </div>
 
