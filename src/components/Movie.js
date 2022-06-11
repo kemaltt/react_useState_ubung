@@ -22,7 +22,7 @@ const Movie = () => {
   };
 
   return (
-    <div>
+    <div className="movie_section">
       <h4>lev3_1: Movie Database - sortierbar</h4>
       <div className="btn_container">
         <button onClick={sortAscending}>Sort by Date Ascending</button>

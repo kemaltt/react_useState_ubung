@@ -169,6 +169,10 @@ padding: 1vh 0;
 }
 
 /* lev3_1: Movie Database - sortierbar */
+
+.movie_section{
+  background-color: #4470c9;
+}
 .btn_container{
   text-align: center;
   gap: 10px;
@@ -202,8 +206,7 @@ padding: 1vh 0;
   width: 190px;
   padding: 2vh 1%;
   text-align: center;
-  border: #C4C4C4 solid 1px;
-  background-color: #484848;
+  background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   border-radius: 10px;
 }
