@@ -134,9 +134,23 @@ padding: 1vh 0;
   padding: 5px 25px;
 }
 
+.counter_display button:nth-of-type(1):active{
+  background-color: tomato;
+  color: #fff;
+}
+.counter_display button:nth-of-type(2):active{
+  background-color: green;
+  color: #fff;
+}
+
 .counter_container >button{
   padding: 1rem 3rem;
   border: none;
+}
+
+.counter_container >button:active{
+  background-color: rgb(21, 21, 150);
+  color: #fff;
 }
 
 /* react state lev2_2: day-night-change */
@@ -154,6 +168,54 @@ padding: 1vh 0;
 
 }
 
+/* lev3_1: Movie Database - sortierbar */
+.btn_container{
+  text-align: center;
+  gap: 10px;
+  padding:3vh 3%;
+
+}
+.btn_container button{
+  padding:  5px 15px;
+  margin: 0 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #484848;
+  color: #fff;
+} 
+
+.btn_container button:active{
+  background-color: rgb(21, 21, 150);
+  color: #fff;
+}
+
+.movie_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding:3vh 3%;
+
+}
+.movie_item{
+  width: 190px;
+  padding: 2vh 1%;
+  text-align: center;
+  border: #C4C4C4 solid 1px;
+  background-color: #484848;
+  color: #fff;
+  border-radius: 10px;
+}
+.movie_container h5{
+  margin-bottom: 2vh;
+  font-size: 1rem;
+  font-weight: bolder;
+
+}
+.movie_container p{
+  margin: 1vh 0;
+}
 
 
 
