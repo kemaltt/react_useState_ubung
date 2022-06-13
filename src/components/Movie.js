@@ -2,23 +2,23 @@ import data from "../data";
 import { useState } from "react";
 
 const Movie = () => {
-  const [sortMovie, setSortMovie] = useState([data]);
+  const [sortMovie, setSortMovie] = useState(data);
   const sortAscending = () => {
-    setSortMovie([...data.sort((a, b) => a.year - b.year)]);
+    setSortMovie(...data.sort((a, b) => a.year - b.year));
   };
 
   const sortDescending = () => {
-    setSortMovie([...data.sort((a, b) => b.year - a.year)]);
+    setSortMovie(...data.sort((a, b) => b.year - a.year));
   };
   const sortBestRated = () => {
-    setSortMovie([...data.sort((a, b) => b.rate - a.rate)]);
+    setSortMovie(...data.sort((a, b) => b.rate - a.rate));
   };
 
   const sortAtoZ = () => {
-    setSortMovie([...data.sort((a, b) => a.title.localeCompare(b.title))]);
+    setSortMovie(...data.sort((a, b) => a.title.localeCompare(b.title)));
   };
   const sortZtoA = () => {
-    setSortMovie([...data.sort((a, b) => b.title.localeCompare(a.title))]);
+    setSortMovie(...data.sort((a, b) => b.title.localeCompare(a.title)));
   };
 
   return (
